@@ -1,0 +1,280 @@
+@media (max-width : 960px ){
+    .wrapper{
+        width: 728px;
+    }
+    .header-menu{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        margin-bottom: 35px;
+    }
+	.inner {
+		width:728px;
+	}
+	.blurb {
+		width:728px;	
+	}
+	.about {
+		width:220px;
+	}
+	.about a {
+		padding-left:100px;
+	}
+	.ping-up {
+		width:728px;	
+	}
+	.pingbul {
+		width:335px;
+		background-image:url( "../image/qvadric.jpg");
+	}
+	.pingbul p{
+		width: 245px;
+		line-height: 1.1;
+	}
+	.hren2{
+	line-height: 1.1;
+}
+	.updates {
+	width:345px;
+	}
+	
+}
+	.updates p {
+		width: 345px;
+		font-weight: 100;
+		font-stretch: condensed;
+		letter-spacing:-0.07em;
+	}
+	
+	.updates span {
+		letter-spacing:-0.01em;
+	}
+	.footer-content{
+    	width: 728px;
+	}
+	.footer-content div{
+    	width: 200px;
+	}
+	.bottom-menu{
+		width: 666px;
+}
+
+@media (max-width : 768px ){
+    .wrapper{
+        width: 430px;
+    }
+    .header-menu{
+        align-items: center;
+    }
+    .nav-menu li{
+        display: none;
+        margin: 0;
+    }
+    .nav-menu li:first-child{
+        display: block;
+    }
+	.block {
+		height:244px;
+		margin-top: 40px;
+	}
+	.inner {
+		display:flex;
+		width:400px;
+	}
+	.inner img {
+		width: 192px;
+		height: 304px;
+	}
+	.lorem {
+		width:205px;
+	}
+	.phone{
+		top: -7px;
+}
+	.lorem h1 {
+		font-size:36px;
+	}
+	.lorem h2 {
+		font-size:18px;
+	}
+	.lorem p {
+		display: none;
+	}
+	.gradient {
+		height:595px;
+	}
+	.blurb {
+		width:440px;
+	}
+	.about {
+		width:430px;
+		margin-top:30px;
+	}
+	.about a{
+		padding-left:300px;
+	}
+	.header{
+   	 	height: 545px;
+	}
+	.pingbul {
+		width:440px;
+		background-image:url( "../image/qvadric2.jpg");
+		margin-top: 60px;
+	}
+	.ping-up {
+		width:440px;
+	}
+	.pingbul p{
+		width: 330px;
+		line-height: 1.3;
+	}
+	.hren2{
+	line-height: 1.3;
+}
+	.icon{
+		width: 250px;
+	}
+	.updates {
+		width:450px;
+		margin-top: 30px;
+		margin-left: 50px;
+	}
+	.updates p {
+		width: 300px;
+		font-weight: 100;
+		font-stretch: ultra-condensed;
+		letter-spacing:-0.016em;
+	}
+	.updates p:last-child span {
+		display: none;
+	}
+	.updates span {
+		letter-spacing:-0.01em;
+	}
+	.footer-content{
+    	width: 440px;
+	}
+	.footer-content div{
+    	width: 400px;
+    	margin-top: 60px;
+		margin-bottom:10px;
+	}
+	.footer-content div:last-child{
+		margin-bottom:70px;
+	}
+	.bottom {
+		height: 115px;
+		display: flex;
+		flex-direction: column;
+		background-size: cover;
+		padding-bottom: 30px;
+	}
+	.bottom-menu{
+		width: 475px;
+		margin-top: 45px;
+	}
+	.bottom-menu li{
+    margin-right: 35px;
+	}
+	.bottom p{
+		
+	}
+}
+
+@media (max-width: 480px){
+    .wrapper{
+        width: 280px;
+    }
+	.header{
+		height: 512px;
+	}
+	.header-menu{
+		padding-top: 60px;
+	}
+	.block {
+		height:244px;
+		margin-top: 10px;
+		display: flex;
+		background:rgba(0,0,0,0.0);
+		align-items: center;
+		margin-left: 0;
+	}
+	.inner {
+	display:flex;
+	flex-wrap: wrap;
+	width:960px;
+	flex-direction: column;
+	margin:auto;
+}
+	.lorem {
+		width:100%;
+		text-align: center;
+		
+	}
+	.phone {
+		display: none;
+		height: 0px;
+	}
+	.blurb{
+		width:  300px;
+	}
+	.lorem h1 {
+	font-size:36px;
+	text-shadow: black 1px 1px 1px;
+	}
+	.lorem h2 {
+	font-size:18px;
+	}
+	.about{
+		width: 300px;
+		padding-left: 15px;
+	}
+	.about a{
+		padding-left:170px;
+	}
+	.ping-up {
+		width:300px;
+	}
+	.pingbul {
+		margin-left: 15px;
+		width:280px;
+		background-image:url( "../image/qvadric3.jpg");
+		margin-top: 60px;
+	}
+	.pingbul p{
+		width: 190px;
+		line-height: 1.5;
+	}
+	.pingbul p span{
+		display: none;
+	}
+	.pingbul h3{
+		width: 110px;
+		margin-bottom:10px;
+	}
+	.icon{
+		width: 200px;
+	}
+	.updates{
+		width: 250px;
+		letter-spacing:-0.01em;
+	}
+	.updates h3{
+		margin-bottom: 10px;
+		letter-spacing:-0.1em;
+	}
+	.updates p {
+		width: 200px;
+		letter-spacing:-0.1em;
+	}
+	.footer{
+		display: none;
+	} 
+	.bottom-menu{
+		display: none;
+	}
+	.bottom p{
+		margin-top: 35px;
+	}
+}
